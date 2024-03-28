@@ -4,6 +4,7 @@ import { useData } from '../../../renderer/useData'
 
 function Page() {
   const { movie } = useData()
+  console.log(movie)
   return (
     <>
       <h1>{movie.title}</h1>

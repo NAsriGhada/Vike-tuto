@@ -23,6 +23,7 @@ function PageShell({ pageContext, children }) {
             <Link href="/">Welcome</Link>
             <Link href="/about">About</Link>
             <Link href="/star-wars">Data Fetching</Link>
+            <Link href="/to-do-list">Todo List App</Link>
           </Sidebar>
           <Content>{children}</Content>
         </Layout>
